@@ -1,4 +1,4 @@
-export default function Card({title, description, image, bgColor, nextStep}) {
+export default function Card({title, description, image, bgColor, step, nextStep, prevStep}) {
     return (
         <div className={`card-container `}>
         <div className={`card `}>
@@ -14,7 +14,8 @@ export default function Card({title, description, image, bgColor, nextStep}) {
                 <span className="dot"></span>
                 <span className="dot"></span>
               </div>
-              <button onClick={nextStep} className="btn btn-dark rounded-circle">➝</button>
+              <button onClick={prevStep} className = {`btn btn-light rounded-circle ${step === 0 ? 'd-none' : ''}`}>←</button>
+              <button onClick={nextStep} className={`btn btn-dark rounded-circle ${step === 2 ? 'd-none' : ''}`}>→</button>
             </div>
           </div>
         </div>

@@ -32,6 +32,9 @@ function App() {
     setStep(prev => (prev + 1) % tutorialData.length )
   }
 
+  function prevStep() {
+    setStep(prev => prev === 0 ? tutorialData.length - 1 : prev - 1)
+  }
 
   return (
     <>
@@ -40,7 +43,9 @@ function App() {
     title = {tutorialData[step].title}
     description = {tutorialData[step].description}
     bgColor = {tutorialData[step].bgColor}
+    prevStep = {prevStep}
     nextStep = {nextStep}
+    step = {step}
     />
      
     </>
