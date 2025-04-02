@@ -98,6 +98,7 @@ font-weight: bold;
   background: #333;
 }
 
+
 .btn-dark {
     width: 50px; 
     height: 50px;
@@ -116,4 +117,6 @@ font-weight: bold;
 }
 .btn-light:hover {
     border-color: black;
+    background-color: black;
+    color: white;
 }

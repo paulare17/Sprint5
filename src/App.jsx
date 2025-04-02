@@ -36,6 +36,13 @@ function App() {
     setStep(prev => prev === 0 ? tutorialData.length - 1 : prev - 1)
   }
 
+  // function showStep(){
+  //   let indicador
+  //   if(step === 0) indicador = tutorialData[0]
+  //   if(step === 1) indicador = tutorialData[1]
+  //   if(step === 0) indicador = tutorialData[0]
+
+
   return (
     <>
     <Card 
@@ -46,6 +53,7 @@ function App() {
     prevStep = {prevStep}
     nextStep = {nextStep}
     step = {step}
+    setStep = {setStep}
     />
      
     </>
