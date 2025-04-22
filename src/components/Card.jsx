@@ -1,11 +1,14 @@
+import Indicator from "./Indicator"
+
+
 export default function Card({title, description, image, bgColor, step, nextStep, prevStep, setStep}) {
     return (
         <div className={`card-container `}>
-        <div className={`card `}>
+        <div className="card">
           <div className={`card-header ${bgColor}`}>
             <img src={image} alt={title} />
           </div>
-          <div className="card-body">
+          <div className={`card-body`}>
             <h2>{title}</h2>
             <p>{description}</p>
             <div className="card-footer">

@@ -28,6 +28,7 @@ $thirdCard: #ffd167;
   height: 100vh;
 }
 
+
 .card {
     // display: flex;
     // flex-direction: column;
@@ -36,6 +37,9 @@ $thirdCard: #ffd167;
   background: white;
   border-radius: 20px;
   overflow: hidden;
+
+  position: absolute;
+  transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 .card-header {
@@ -44,6 +48,7 @@ $thirdCard: #ffd167;
 //   padding: 20px;
   display: flex;
   justify-content: center;
+
 
 }
 
@@ -60,6 +65,7 @@ $thirdCard: #ffd167;
   flex-direction: column;
   justify-content: space-between;
   text-align: left;
+
 }
 
 .card-body h2 {

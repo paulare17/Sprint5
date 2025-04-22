@@ -2,6 +2,7 @@ import { useState } from "react";
 import './App.scss'
 import Card from "./components/Card"
 
+
 function App() {
   
   const tutorialData = [
@@ -36,12 +37,7 @@ function App() {
     setStep(prev => prev === 0 ? tutorialData.length - 1 : prev - 1)
   }
 
-  // function showStep(){
-  //   let indicador
-  //   if(step === 0) indicador = tutorialData[0]
-  //   if(step === 1) indicador = tutorialData[1]
-  //   if(step === 0) indicador = tutorialData[0]
-
+  
 
   return (
     <>
