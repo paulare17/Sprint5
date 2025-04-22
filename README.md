@@ -1,12 +1,32 @@
-# React + Vite
+# Sprint 5 IT Academy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projecte web fet amb **React**, **Vite**, **Bootstrap** i **CSS** que mostra tres targetes amb consells per aprendre a programar. Cada targeta representa un pas diferent, i els botons van apareixent conforme es canvia de targeta, adaptant-se a la experiència de l'usuari.
 
-Currently, two official plugins are available:
+## Tecnologies utilitzades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Bootstrap](https://getbootstrap.com/)
+- CSS
 
-## Expanding the ESLint configuration
+## Com executar el projecte en desenvolupament
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Entra al directori del projecte:**
+
+   ```bash
+   cd sprint-5-it-academy
+2. **Instal·la les dependències:**
+
+```bash
+npm install
+```
+
+3. **Executa el servidor de desenvolupament:**
+
+```bash
+npm run dev
+```
+
+4. **Obre el navegador:**
+
+Visita [http://localhost:5173](http://localhost:5173) per veure el projecte.
