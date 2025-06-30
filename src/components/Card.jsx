@@ -1,5 +1,3 @@
-import Indicator from "./Indicator"
-
 
 export default function Card({title, description, image, bgColor, step, nextStep, prevStep, setStep}) {
     return (
